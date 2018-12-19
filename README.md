@@ -1,6 +1,6 @@
 # Example problem webclient Spring
 ## Purpose
-Demonstrate problem with Spring Webclient. This can be reproduced by running the [WebClientTest](src/test/java/com/github/robisrob/webclient_bug/WebClientTest.java)
+Demonstrate problem with Spring Webclient. This can be reproduced by running the [WebClientTest](src/test/java/com/github/robisrob/webclient_bug/WebClientTest.java). This error is only visible in the console, not in the error returned by the Mono.
 
 ## Problem
 When doing a exponential backoff on a mono that contains an error, there is an unexpected exception printed in the console:
