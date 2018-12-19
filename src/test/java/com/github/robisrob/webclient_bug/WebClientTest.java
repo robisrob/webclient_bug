@@ -18,7 +18,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 @ExtendWith(SpringExtension.class)
 @SpringBootTest(webEnvironment = DEFINED_PORT)
 @AutoConfigureWireMock(port = 9999)
-public class ExperimentsTest {
+public class WebClientTest {
 
 
   @Test
