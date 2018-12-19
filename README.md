@@ -1,4 +1,4 @@
-# Example problem webclient Spring [![Build Status](https://travis-ci.org/robisrob/webclient_bug.svg?branch=master)]
+# Example problem webclient Spring [![Build Status](https://travis-ci.org/robisrob/webclient_bug.svg?branch=master)](https://travis-ci.org/robisrob/webclient_bug)
 ## Purpose
 Demonstrate problem with Spring Webclient. This can be reproduced by running the [WebClientTest](src/test/java/com/github/robisrob/webclient_bug/WebClientTest.java). This error is only visible in the console, not in the error returned by the Mono.
 
